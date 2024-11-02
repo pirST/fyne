@@ -1,10 +1,10 @@
 package mobile
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/driver/mobile"
-	"fyne.io/fyne/v2/internal/driver/mobile/event/size"
-	"fyne.io/fyne/v2/lang"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/driver/mobile"
+	"github.com/pirST/fyne/v2/internal/driver/mobile/event/size"
+	"github.com/pirST/fyne/v2/lang"
 )
 
 type device struct {

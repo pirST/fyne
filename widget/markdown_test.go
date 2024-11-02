@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2/storage"
+	"github.com/pirST/fyne/v2/storage"
 )
 
 func TestRichTextMarkdown_Blockquote(t *testing.T) {
@@ -129,12 +129,12 @@ func TestRichTextMarkdown_Heading_Blank(t *testing.T) {
 }
 
 func TestRichTextMarkdown_Hyperlink(t *testing.T) {
-	r := NewRichTextFromMarkdown("[title](https://fyne.io/)")
+	r := NewRichTextFromMarkdown("[title](https://github.com/pirST/)")
 
 	assert.Equal(t, 2, len(r.Segments))
 	if link, ok := r.Segments[0].(*HyperlinkSegment); ok {
 		assert.Equal(t, "title", link.Text)
-		assert.Equal(t, "fyne.io", link.URL.Host)
+		assert.Equal(t, "github.com/pirST", link.URL.Host)
 	} else {
 		t.Error("Segment should be a Hyperlink")
 	}
@@ -249,17 +249,17 @@ func TestRichTextMarkdown_NewlinesAroundStrong(t *testing.T) {
 }
 
 func TestRichTextMarkdown_NewlinesAroundHyperlink(t *testing.T) {
-	r := NewRichTextFromMarkdown("foo\n[bar](https://fyne.io/)\nbaz")
+	r := NewRichTextFromMarkdown("foo\n[bar](https://github.com/pirST/)\nbaz")
 	assert.Equal(t, "foo bar baz", r.String())
 }
 
 func TestRichTextMarkdown_SpacesAroundHyperlink(t *testing.T) {
-	r := NewRichTextFromMarkdown("foo [bar](https://fyne.io/) baz")
+	r := NewRichTextFromMarkdown("foo [bar](https://github.com/pirST/) baz")
 	assert.Equal(t, "foo bar baz", r.String())
 }
 
 func TestRichTextMarkdown_NewlineInHyperlink(t *testing.T) {
-	r := NewRichTextFromMarkdown("[foo\nbar](https://fyne.io/)")
+	r := NewRichTextFromMarkdown("[foo\nbar](https://github.com/pirST/)")
 	assert.Equal(t, "foo bar", r.String())
 }
 

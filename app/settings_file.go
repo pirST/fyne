@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"fyne.io/fyne/v2"
+	"github.com/pirST/fyne/v2"
 )
 
 func (s *settings) load() {

@@ -3,8 +3,8 @@ package canvas
 import (
 	"image/color"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/theme"
 )
 
 // Declare conformity with CanvasObject interface

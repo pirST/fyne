@@ -8,7 +8,7 @@ import (
 
 	"github.com/godbus/dbus/v5"
 
-	"fyne.io/fyne/v2"
+	"github.com/pirST/fyne/v2"
 )
 
 var inhibitCookie uint32

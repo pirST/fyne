@@ -3,8 +3,8 @@ package driver
 import (
 	"math"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/cache"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/internal/cache"
 )
 
 // AbsolutePositionForObject returns the absolute position of an object in a set of object trees.

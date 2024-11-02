@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"fyne.io/fyne/v2"
-	fynecanvas "fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/driver/mobile"
-	_ "fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/pirST/fyne/v2"
+	fynecanvas "github.com/pirST/fyne/v2/canvas"
+	"github.com/pirST/fyne/v2/container"
+	"github.com/pirST/fyne/v2/driver/mobile"
+	_ "github.com/pirST/fyne/v2/test"
+	"github.com/pirST/fyne/v2/theme"
+	"github.com/pirST/fyne/v2/widget"
 
 	"github.com/stretchr/testify/assert"
 )

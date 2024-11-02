@@ -3,8 +3,8 @@
 package app
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/driver/glfw"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/internal/driver/glfw"
 )
 
 // NewWithID returns a new app instance using the appropriate runtime driver.

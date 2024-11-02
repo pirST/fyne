@@ -14,7 +14,7 @@ func TestLoadAppMetadata(t *testing.T) {
 
 	data, err := Load(r)
 	assert.Nil(t, err)
-	assert.Equal(t, "https://apps.fyne.io", data.Website)
+	assert.Equal(t, "https://apps.github.com/pirST", data.Website)
 	assert.Equal(t, "io.fyne.fyne", data.Details.ID)
 	assert.Equal(t, "1.0.0", data.Details.Version)
 	assert.Equal(t, 1, data.Details.Build)

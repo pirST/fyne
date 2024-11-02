@@ -1,10 +1,10 @@
 package widget
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/theme"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/canvas"
+	"github.com/pirST/fyne/v2/internal/widget"
+	"github.com/pirST/fyne/v2/theme"
 )
 
 // PopUp is a widget that can float above the user interface.

@@ -4,11 +4,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/lang"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/container"
+	"github.com/pirST/fyne/v2/lang"
+	"github.com/pirST/fyne/v2/theme"
+	"github.com/pirST/fyne/v2/widget"
 )
 
 func createInformationDialog(title, message string, icon fyne.Resource, parent fyne.Window) Dialog {

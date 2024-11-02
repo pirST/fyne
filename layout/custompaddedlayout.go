@@ -1,7 +1,7 @@
 package layout
 
 import (
-	"fyne.io/fyne/v2"
+	"github.com/pirST/fyne/v2"
 )
 
 // Declare conformity with Layout interface

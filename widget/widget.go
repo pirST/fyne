@@ -1,16 +1,16 @@
 // Package widget defines the UI widgets within the Fyne toolkit.
-package widget // import "fyne.io/fyne/v2/widget"
+package widget // import "github.com/pirST/fyne/v2/widget"
 
 import (
 	"sync"
 	"sync/atomic"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/async"
-	"fyne.io/fyne/v2/internal/cache"
-	internalWidget "fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/theme"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/canvas"
+	"github.com/pirST/fyne/v2/internal/async"
+	"github.com/pirST/fyne/v2/internal/cache"
+	internalWidget "github.com/pirST/fyne/v2/internal/widget"
+	"github.com/pirST/fyne/v2/theme"
 )
 
 // BaseWidget provides a helper that handles basic widget behaviours.

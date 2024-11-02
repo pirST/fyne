@@ -3,10 +3,10 @@ package widget
 import (
 	"sync/atomic"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/async"
-	"fyne.io/fyne/v2/internal/cache"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/canvas"
+	"github.com/pirST/fyne/v2/internal/async"
+	"github.com/pirST/fyne/v2/internal/cache"
 )
 
 // Base provides a helper that handles basic widget behaviours.

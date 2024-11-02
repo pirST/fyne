@@ -11,13 +11,13 @@ import (
 	"github.com/go-text/typesetting/shaping"
 	"golang.org/x/image/math/fixed"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/cache"
-	paint "fyne.io/fyne/v2/internal/painter"
-	"fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/theme"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/canvas"
+	"github.com/pirST/fyne/v2/internal/cache"
+	paint "github.com/pirST/fyne/v2/internal/painter"
+	"github.com/pirST/fyne/v2/internal/widget"
+	"github.com/pirST/fyne/v2/layout"
+	"github.com/pirST/fyne/v2/theme"
 )
 
 const (

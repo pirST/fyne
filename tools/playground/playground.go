@@ -8,10 +8,10 @@ import (
 	"image"
 	"image/png"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/driver/software"
-	"fyne.io/fyne/v2/internal/test"
-	"fyne.io/fyne/v2/theme"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/driver/software"
+	"github.com/pirST/fyne/v2/internal/test"
+	"github.com/pirST/fyne/v2/theme"
 )
 
 func imageToPlayground(img image.Image) {

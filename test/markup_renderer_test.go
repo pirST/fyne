@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2"
-	fynecanvas "fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/pirST/fyne/v2"
+	fynecanvas "github.com/pirST/fyne/v2/canvas"
+	"github.com/pirST/fyne/v2/container"
+	"github.com/pirST/fyne/v2/layout"
+	"github.com/pirST/fyne/v2/theme"
+	"github.com/pirST/fyne/v2/widget"
 )
 
 func Test_knownColor(t *testing.T) {

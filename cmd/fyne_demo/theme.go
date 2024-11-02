@@ -3,7 +3,7 @@ package main
 import (
 	"image/color"
 
-	"fyne.io/fyne/v2"
+	"github.com/pirST/fyne/v2"
 )
 
 type forcedVariant struct {

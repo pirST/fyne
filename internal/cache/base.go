@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"fyne.io/fyne/v2"
+	"github.com/pirST/fyne/v2"
 )
 
 var (

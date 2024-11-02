@@ -5,9 +5,9 @@ package glfw
 import (
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/driver/desktop"
 	"github.com/go-gl/glfw/v3.3/glfw"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/driver/desktop"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,9 +1,9 @@
-Website = "https://apps.fyne.io"
+Website = "https://apps.github.com/pirST"
 
 [Details]
 Name = "Fyne App"
 ID = "io.fyne.fyne"
-Icon = "https://conf.fyne.io/assets/img/fyne.png"
+Icon = "https://conf.github.com/pirST/assets/img/fyne.png"
 Version = "1.0.0"
 Build = 1
 

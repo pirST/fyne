@@ -3,8 +3,8 @@ package app
 import (
 	"sync/atomic"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/async"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/internal/async"
 )
 
 var _ fyne.Lifecycle = (*Lifecycle)(nil)

@@ -1,6 +1,6 @@
 package commands
 
-import "fyne.io/fyne/v2/internal/metadata"
+import "github.com/pirST/fyne/v2/internal/metadata"
 
 type appData struct {
 	icon, Name        string

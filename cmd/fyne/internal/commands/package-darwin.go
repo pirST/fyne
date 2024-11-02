@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"fyne.io/fyne/v2/cmd/fyne/internal/templates"
 	"github.com/fogleman/gg"
 	"github.com/nfnt/resize"
+	"github.com/pirST/fyne/v2/cmd/fyne/internal/templates"
 
 	"github.com/jackmordaunt/icns/v2"
 )

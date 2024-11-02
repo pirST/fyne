@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/storage"
-	_ "fyne.io/fyne/v2/test"
+	"github.com/pirST/fyne/v2/canvas"
+	"github.com/pirST/fyne/v2/storage"
+	_ "github.com/pirST/fyne/v2/test"
 
 	"github.com/stretchr/testify/assert"
 )

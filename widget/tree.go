@@ -3,13 +3,13 @@ package widget
 import (
 	"fmt"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/data/binding"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/theme"
+	"github.com/pirST/fyne/v2"
+	"github.com/pirST/fyne/v2/canvas"
+	"github.com/pirST/fyne/v2/data/binding"
+	"github.com/pirST/fyne/v2/driver/desktop"
+	"github.com/pirST/fyne/v2/internal/cache"
+	"github.com/pirST/fyne/v2/internal/widget"
+	"github.com/pirST/fyne/v2/theme"
 )
 
 // allTreeNodesID represents all tree nodes when refreshing requested nodes

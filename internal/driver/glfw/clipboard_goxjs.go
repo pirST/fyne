@@ -3,8 +3,8 @@
 package glfw
 
 import (
-	"fyne.io/fyne/v2"
 	glfw "github.com/fyne-io/glfw-js"
+	"github.com/pirST/fyne/v2"
 )
 
 // Declare conformity with Clipboard interface
